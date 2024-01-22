@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2022 Aizer  
+Copyright (c) 2024 SP1IT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -31,27 +31,27 @@ __intents__ = discord.Intents.default()
 __intents__.members = True
 __proxies__, __client__, __config__, __threads__= cycle(open("proxies.txt", "r").read().splitlines()), commands.Bot(command_prefix="+", help_command=None, intents=__intents__), json.load(open("config.py", "r", encoding="utf-8")), 45
 os.system("cls") if os.name == "nt" else os.system("clear")
-token = input("{}({}Thallium{}) Enter Token{}:{} ".format("\x1b[0m", "\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[0m"))
+token = input("{}({}somnath{}) Enter Token{}:{} ".format("\x1b[0m", "\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[0m"))
 os.system("cls") if os.name == "nt" else os.system("clear")
 
-Thallium_art = """
+STEVEXSOMNATH_art = """
        {} ████████╗██╗  ██╗ █████╗ ██╗     ██╗     ██╗██╗   ██╗███╗   ███╗
        {} ╚══██╔══╝██║  ██║██╔══██╗██║     ██║     ██║██║   ██║████╗ ████║
        {}    ██║   ███████║███████║██║     ██║     ██║██║   ██║██╔████╔██║
        {}    ██║   ██╔══██║██╔══██║██║     ██║     ██║██║   ██║██║╚██╔╝██║
        {}    ██║   ██║  ██║██║  ██║███████╗███████╗██║╚██████╔╝██║ ╚═╝ ██║
        {}    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝
-      {} =============================== NT ==================================
-      {}   NUKERS TERRITORY| Aizer On Top discord.gg/ntontop
+      {} =============================== ST ==================================
+      {}   SP1IT OFFICIAL| STEVE X SOMNATH On Top discord.gg/SP1IT
       {} =============================== NT =================================={}
 """.format("\x1b[38;5;122m", "\x1b[38;5;122m", "\x1b[38;5;122m", "\x1b[38;5;122m", "\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[38;5;83m", "\x1b[38;5;122m", "\x1b[0m")
 options = """
          ╚╦╗                                                             ╔╦╝
      ╔═════╩══════════════════╦═════════════════════════╦══════════════════╩═════╗
-     ╩ ({}1{}) {}< {}Ban Members      ║ ({}5{}) {}< {}Create Roles      ║ ({}9{})  {}< {}Spam Channels   ╩
-       ({}2{}) {}< {}Kick Members     ║ ({}6{}) {}< {}Delete Channels   ║ ({}10{}) {}< {}Check Updates      
-       ({}3{}) {}< {}Prune Members    ║ ({}7{}) {}< {}Delete Roles      ║ ({}11{}) {}< {}Credits        
-     ╦ ({}4{}) {}< {}Create Channels  ║ ({}8{}) {}< {}Delete Emojis     ║ ({}12{}) {}< {}Exit            ╦
+     ╩ ({}1{}) {}< {}Ban MARO     ║ ({}5{}) {}< {}Create karo Roles      ║ ({}9{})  {}< {}Spam karo Channels   ╩
+       ({}2{}) {}< {}Kick MARO     ║ ({}6{}) {}< {}Delete karo Channels   ║ ({}10{}) {}< {}Check karo Updates      
+       ({}3{}) {}< {}Prune KARO    ║ ({}7{}) {}< {}Delete karo Roles      ║ ({}11{}) {}< {}Credits        
+     ╦ ({}4{}) {}< {}Chanel banawo ║ ({}8{}) {}< {}Delete karo Emojis     ║ ({}12{}) {}< {}Exit            ╦
      ╚═════╦══════════════════╩═════════════════════════╩══════════════════╦═════╝
           ╔╩╝                                                             ╚╩╗
 """.format("\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[0m",
